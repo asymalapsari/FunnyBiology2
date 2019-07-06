@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asymalaps.funnybiology.quiztype"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/haha"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT QUIZ TYPE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:id="@+id/btn_biotech"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="BIOTECHNOLOGY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        android:background="#80CBC4"
+        android:onClick="intent2"
+        />
+
+    <Button
+        android:id="@+id/btn_organism"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="ORGANISM"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210sp"
+        android:background="#80CBC4"
+        android:onClick="intent3"
+        />
+
+    <Button
+        android:id="@+id/btn_genetics"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="GENETICS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300sp"
+        android:background="#80CBC4"
+        android:onClick="intent4"/>
+
+
+
+
+
+</RelativeLayout>

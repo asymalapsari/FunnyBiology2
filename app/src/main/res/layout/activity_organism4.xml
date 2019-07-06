@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asymalaps.funnybiology.organism4"
+    android:orientation="vertical"
+    android:background="@drawable/bg4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3E2723"
+        android:fontFamily="sans-serif-condensed"
+        android:text="ORGANISM QUIZ (4/5)"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_margin="20sp"/>
+
+    <TextView
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the name of these plants?"
+        android:gravity="center"
+        android:layout_margin="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:src="@drawable/frond"/>
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:src="@drawable/moss"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:orientation="vertical"
+
+        >
+        <CheckBox
+            android:id="@+id/check_ans14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frond"
+            android:textSize="15sp"
+            />
+        <CheckBox
+            android:id="@+id/check_ans24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banyan Tree"
+            android:textSize="15sp"/>
+        <CheckBox
+            android:id="@+id/check_ans34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fir Tree"
+            android:textSize="15sp"/>
+        <CheckBox
+            android:id="@+id/check_ans44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moss"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_next11"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_gravity="center"
+        android:layout_margin="40sp"
+        android:onClick="intent8"
+        android:background="#A1887F"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+</LinearLayout>

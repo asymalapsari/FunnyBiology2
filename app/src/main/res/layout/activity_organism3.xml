@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asymalaps.funnybiology.organism3"
+    android:background="@drawable/bg4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3E2723"
+        android:fontFamily="sans-serif-condensed"
+        android:text="ORGANISM QUIZ (3/5)"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_margin="20sp"/>
+
+    <TextView
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This virus powerful is ..."
+        android:gravity="center"
+        android:layout_margin="18sp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/virust"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virus T -->"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <RadioButton
+                android:id="@+id/radio_ans13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prokaryote"/>
+            <View
+                android:layout_width="250dp"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <RadioButton
+                android:id="@+id/radio_ans23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Against Bacteria"/>
+            <View
+                android:layout_width="250dp"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <RadioButton
+                android:id="@+id/radio_ans33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Has DNA and RNA"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next11"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:onClick="intent7"
+        android:background="#A1887F"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>

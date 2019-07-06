@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asymalaps.funnybiology.organism"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3E2723"
+        android:fontFamily="sans-serif-condensed"
+        android:text="ORGANISM QUIZ (1/5)"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_margin="20sp"/>
+
+    <TextView
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The type of fungus used to make tempe is ..."
+        android:gravity="center"
+        android:layout_margin="18sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rhizopustempe"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20sp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/radio_ans11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zygomycota"/>
+            <View
+                android:layout_width="250sp"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <RadioButton
+                android:id="@+id/radio_ans21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhizopus Oryzae"/>
+            <View
+                android:layout_width="250sp"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <RadioButton
+                android:id="@+id/radio_ans31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhizopus Stolonifer"/>
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_next11"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:onClick="intent5"
+        android:background="#A1887F"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
+
+
